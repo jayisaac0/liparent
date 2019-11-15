@@ -26,8 +26,8 @@ $token = $params = NULL;
 PesaPal Sandbox is at http://demo.pesapal.com. Use this to test your developement and 
 when you are ready to go live change to https://www.pesapal.com.
 */
-$consumer_key = "gYf7PIaWuh7hjy/1jN/6qvxnNDob7oB6";
-$consumer_secret = "WKgJDyFU6tcbWaQ3xt7N58WA8Tw=";
+$consumer_key = "";
+$consumer_secret = "";
                    //account on demo.pesapal.com. When you are ready to go live make sure you 
                    //change the secret to the live account registered on www.pesapal.com!
 $signature_method = new OAuthSignatureMethod_HMAC_SHA1();

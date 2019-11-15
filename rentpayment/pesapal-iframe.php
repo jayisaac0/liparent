@@ -8,8 +8,8 @@ $token = $params = NULL;
 PesaPal Sandbox is at http://demo.pesapal.com. Use this to test your developement and 
 when you are ready to go live change to https://www.pesapal.com.
 */
-$consumer_key = "gYf7PIaWuh7hjy/1jN/6qvxnNDob7oB6";
-$consumer_secret = "WKgJDyFU6tcbWaQ3xt7N58WA8Tw=";
+$consumer_key = "";
+$consumer_secret = "";
                    //account on demo.pesapal.com. When you are ready to go live make sure you 
                    //change the secret to the live account registered on www.pesapal.com!
 $signature_method = new OAuthSignatureMethod_HMAC_SHA1();
@@ -28,7 +28,7 @@ $last_name = $_POST['last_name'];
 $email = $_POST['email'];
 $phonenumber = '';//ONE of email or phonenumber is required
 
-$callback_url = 'http://www.yourdomain.com/redirect.php'; //redirect url, the page that will handle the response from pesapal.
+$callback_url = 'http://localhost/rentpayment/'; //redirect url, the page that will handle the response from pesapal.
 
 $post_xml = "<?xml version=\"1.0\" encoding=\"utf-8\"?><PesapalDirectOrderInfo xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" Amount=\"".$amount."\" Description=\"".$desc."\" Type=\"".$type."\" Reference=\"".$reference."\" FirstName=\"".$first_name."\" LastName=\"".$last_name."\" Email=\"".$email."\" PhoneNumber=\"".$phonenumber."\" xmlns=\"http://www.pesapal.com\" />";
 $post_xml = htmlentities($post_xml);
