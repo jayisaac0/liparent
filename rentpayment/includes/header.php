@@ -27,9 +27,9 @@ if (isset($_GET['pesapal_transaction_tracking_id'])) {
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-	<title>Apartment - Premium Real Estate HMTL Site Template</title>
-	<meta name="keywords" content="Download, Apartment, Premium, Real Estate, HMTL, Site Template, property, mortgage, CSS" />
-	<meta name="description" content="Download Apartment - Premium Real Estate HMTL Site Template" />
+	<title>Lipa rent</title>
+	<meta name="keywords" content="lipa rent" />
+	<meta name="description" content="lipa rent" />
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
