@@ -22,7 +22,6 @@ if (isset($_GET['pesapal_transaction_tracking_id'])) {
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from apartment-html.chart.civ.pl/index2.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Nov 2019 14:08:00 GMT -->
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,21 +32,15 @@ if (isset($_GET['pesapal_transaction_tracking_id'])) {
 	<meta name="description" content="Download Apartment - Premium Real Estate HMTL Site Template" />
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
-
-    <!-- Bootstrap -->
+script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">    
-	<!-- Font awesome styles -->    
 	<link rel="stylesheet" href="apartment-font/css/font-awesome.min.css">  
-	<!-- Custom styles -->
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,500italic,700,700italic&amp;subset=latin,latin-ext'>
 	<link rel="stylesheet" type="text/css" href="css/plugins.css">
     <link rel="stylesheet" type="text/css" href="css/apartment-layout.css">
     <link id="skin" rel="stylesheet" type="text/css" href="css/apartment-colors-blue.css">
 	
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 <style>
 	#switcher{display: none !important;}
 	#switcher-button{display: none !important;}
