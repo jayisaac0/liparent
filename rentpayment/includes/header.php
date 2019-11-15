@@ -32,7 +32,7 @@ if (isset($_GET['pesapal_transaction_tracking_id'])) {
 	<meta name="description" content="Download Apartment - Premium Real Estate HMTL Site Template" />
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
-script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">    
 	<link rel="stylesheet" href="apartment-font/css/font-awesome.min.css">  
